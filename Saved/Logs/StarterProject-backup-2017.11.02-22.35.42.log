@@ -1,0 +1,739 @@
+﻿Log file open, 11/02/17 21:37:35
+LogInit:Display: Running engine for game: StarterProject
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(1001202207) SRandInit(1001202207).
+LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.071017
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.16-CL-3561208
+LogInit: Engine Version: 4.16.3-3561208+++UE4+Release-4.16
+LogInit: Compatible Engine Version: 4.16.0-3452394+++UE4+Release-4.16
+LogInit: Net CL: 3452394
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 9
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 17
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 23
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 15
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 3
+LogInit: Compiled (64-bit): Jul 28 2017 11:49:47
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.16
+LogInit: Command line:  
+LogInit: Base directory: F:/Unreal Engine/UE_4.16/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.11.02-14.37.35:900][  0]LogInit: Selected Device Profile: [Windows]
+[2017.11.02-14.37.35:900][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.11.02-14.37.35:908][  0]LogInit: Computer: MHARITSNF-PC
+[2017.11.02-14.37.35:908][  0]LogInit: User: mharitsnf
+[2017.11.02-14.37.35:908][  0]LogInit: CPU Page size=4096, Cores=4
+[2017.11.02-14.37.35:908][  0]LogInit: High frequency timer resolution =3.906247 MHz
+[2017.11.02-14.37.35:908][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2017.11.02-14.37.35:908][  0]LogMemory: Platform Memory Stats for Windows
+[2017.11.02-14.37.35:908][  0]LogMemory: Process Physical Memory: 273.43 MB used, 273.43 MB peak
+[2017.11.02-14.37.35:908][  0]LogMemory: Process Virtual Memory: 260.82 MB used, 260.82 MB peak
+[2017.11.02-14.37.35:908][  0]LogMemory: Physical Memory: 4365.78 MB used,  11878.55 MB free, 16244.33 MB total
+[2017.11.02-14.37.35:908][  0]LogMemory: Virtual Memory: 638.19 MB used,  11878.55 MB free, 134217728.00 MB total
+[2017.11.02-14.37.35:942][  0]LogInit: Using OS detected language (en-US).
+[2017.11.02-14.37.35:942][  0]LogInit: Using OS detected locale (en-US).
+[2017.11.02-14.37.35:944][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2017.11.02-14.37.36:599][  0]LogD3D11RHI: D3D11 adapters:
+[2017.11.02-14.37.37:078][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 980' (Feature Level 11_0)
+[2017.11.02-14.37.37:078][  0]LogD3D11RHI:       4060/0/8122 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2017.11.02-14.37.37:083][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 4600' (Feature Level 11_0)
+[2017.11.02-14.37.37:083][  0]LogD3D11RHI:       112/0/2048 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2017.11.02-14.37.37:083][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.11.02-14.37.37:083][  0]LogD3D11RHI:       0/0/8122 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.11.02-14.37.37:083][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.11.02-14.37.37:087][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.11.02-14.37.37:087][  0]LogD3D11RHI:     GPU DeviceId: 0x13c0 (for the marketing name, search the web for "GPU Device Id")
+[2017.11.02-14.37.37:087][  0]LogWindows: EnumDisplayDevices:
+[2017.11.02-14.37.37:087][  0]LogWindows:    0. 'NVIDIA GeForce GTX 980' (P:1 D:1)
+[2017.11.02-14.37.37:088][  0]LogWindows:    1. 'NVIDIA GeForce GTX 980' (P:0 D:0)
+[2017.11.02-14.37.37:088][  0]LogWindows:    2. 'NVIDIA GeForce GTX 980' (P:0 D:0)
+[2017.11.02-14.37.37:088][  0]LogWindows:    3. 'NVIDIA GeForce GTX 980' (P:0 D:0)
+[2017.11.02-14.37.37:088][  0]LogWindows:    4. 'Intel(R) HD Graphics 4600' (P:0 D:0)
+[2017.11.02-14.37.37:088][  0]LogWindows:    5. 'Intel(R) HD Graphics 4600' (P:0 D:0)
+[2017.11.02-14.37.37:088][  0]LogWindows:    6. 'Intel(R) HD Graphics 4600' (P:0 D:0)
+[2017.11.02-14.37.37:088][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:4 
+[2017.11.02-14.37.37:088][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 980
+[2017.11.02-14.37.37:088][  0]LogD3D11RHI:   Driver Version: 384.76 (internal:22.21.13.8476, unified:384.76)
+[2017.11.02-14.37.37:088][  0]LogD3D11RHI:      Driver Date: 6-27-2017
+[2017.11.02-14.37.37:088][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.11.02-14.37.37:540][  0]LogD3D11RHI: Async texture creation enabled
+[2017.11.02-14.37.37:571][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2017.11.02-14.37.37:619][  0]LogShaderCompilers: Guid format shader working directory is 13 characters bigger than the processId version (../../../../Projects/Tutorial4Gamedev/Intermediate/Shaders/WorkingDirectory/7944/).
+[2017.11.02-14.37.37:619][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/mharitsnf/AppData/Local/Temp/UnrealShaderWorkingDir/71585E8043725A0A3D4DEDBD3C38CE55/'.
+[2017.11.02-14.37.37:619][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.11.02-14.37.38:352][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.11.02-14.37.38:378][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2017.11.02-14.37.38:405][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2017.11.02-14.37.38:431][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2017.11.02-14.37.38:457][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2017.11.02-14.37.38:483][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.11.02-14.37.38:509][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.11.02-14.37.38:535][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.11.02-14.37.38:557][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.11.02-14.37.38:584][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.11.02-14.37.38:610][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.11.02-14.37.38:636][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.11.02-14.37.38:662][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.11.02-14.37.38:687][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.11.02-14.37.38:712][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.11.02-14.37.38:763][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.11.02-14.37.38:763][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.11.02-14.37.38:781][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.11.02-14.37.38:838][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.11.02-14.37.38:855][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2017.11.02-14.37.38:880][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2017.11.02-14.37.38:905][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.11.02-14.37.38:931][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.11.02-14.37.38:957][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.11.02-14.37.38:957][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.11.02-14.37.39:186][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.11.02-14.37.39:259][  0]LogDerivedDataCache: Loaded boot cache 0.07s 90MB C:/Users/mharitsnf/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2017.11.02-14.37.39:259][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/mharitsnf/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc
+[2017.11.02-14.37.39:259][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../Projects/Tutorial4Gamedev/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.11.02-14.37.39:259][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.11.02-14.37.39:259][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../Projects/Tutorial4Gamedev/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.11.02-14.37.39:259][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.11.02-14.37.39:271][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.11.02-14.37.39:283][  0]LogDerivedDataCache: Using Local data cache path C:/Users/mharitsnf/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.11.02-14.37.39:290][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2017.11.02-14.37.39:290][  0]LogSlate: Using Freetype 2.6.0
+[2017.11.02-14.37.39:291][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.11.02-14.37.39:291][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.11.02-14.37.39:510][  0]LogInit: Selected Device Profile: [Windows]
+[2017.11.02-14.37.39:563][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.11.02-14.37.39:662][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.11.02-14.37.39:683][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.11.02-14.37.39:705][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.11.02-14.37.39:705][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2017.11.02-14.37.39:705][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.11.02-14.37.40:041][  0]LogNetVersion: StarterProject , NetCL: 3452394, EngineNetVer: 2, GameNetVer: 0 (Checksum: 2564044933)
+[2017.11.02-14.37.40:087][  0]LogAssetRegistry: FAssetRegistry took 0.0244 seconds to start up
+[2017.11.02-14.37.40:122][  0]LogPackageLocalizationCache: Processed 4 localized package path(s) for 2 prioritized culture(s) in 0.023210 seconds
+[2017.11.02-14.37.40:126][  0]LogUObjectArray: 34194 objects as part of root set at end of initial load.
+[2017.11.02-14.37.40:126][  0]LogUObjectAllocator: 7260416 out of 0 bytes used by permanent object pool.
+[2017.11.02-14.37.40:126][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.11.02-14.37.40:155][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.11.02-14.37.41:521][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.11.02-14.37.41:545][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.11.02-14.37.41:835][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.11.02-14.37.42:038][  0]SourceControl: Info Source control is disabled
+[2017.11.02-14.37.42:085][  0]SourceControl: Info Source control is disabled
+[2017.11.02-14.37.42:109][  0]SourceControl: Info Source control is disabled
+[2017.11.02-14.37.42:130][  0]SourceControl: Info Source control is disabled
+[2017.11.02-14.37.42:250][  0]LogLinker:Warning: Can't find file '/Game/RollingBP/RollingOverview'
+[2017.11.02-14.37.42:250][  0]LogLinker:Warning: Can't find file '/Game/RollingBP/RollingOverview'
+[2017.11.02-14.37.42:250][  0]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/RollingBP/RollingOverview.RollingOverview_C'
+[2017.11.02-14.37.42:445][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2017.11.02-14.37.42:735][  0]LogEngine: Initializing Engine...
+[2017.11.02-14.37.42:735][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.11.02-14.37.42:885][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.11.02-14.37.42:885][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.11.02-14.37.42:948][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.11.02-14.37.42:956][  0]LogInit: XAudio2 using 'Headphones (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.11.02-14.37.42:964][  0]LogInit: FAudioDevice initialized.
+[2017.11.02-14.37.43:000][  0]LogDerivedDataCache: Saved boot cache 0.04s 90MB C:/Users/mharitsnf/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2017.11.02-14.37.43:008][  0]LogInit: Texture streaming: Enabled
+[2017.11.02-14.37.43:053][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.11.02-14.37.43:158][  0]LogInit: Transaction tracking system initialized
+[2017.11.02-14.37.43:302][  0]BlueprintLog: New page: Editor Load
+[2017.11.02-14.37.43:732][  0]LocalizationService: Info Localization service is disabled
+[2017.11.02-14.37.44:056][  0]LogConsoleResponse:Display: 
+[2017.11.02-14.37.44:161][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.11.02-14.37.44:161][  0]LogCook:Display: Mobile HDR setting 1
+[2017.11.02-14.37.44:636][  0]LogFileCache: Scanning file cache for directory 'F:/Unreal Engine/Projects/Tutorial4Gamedev/Content/' took 0.01s
+[2017.11.02-14.37.44:636][  0]SourceControl: Info Source control is disabled
+[2017.11.02-14.37.44:636][  0]Cmd: MAP LOAD FILE="../../../../Projects/Tutorial4Gamedev/Content/StarterContent/Maps/Minimal_Default.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.11.02-14.37.44:637][  0]LightingResults: New page: Lighting Build
+[2017.11.02-14.37.44:656][  0]MapCheck: New page: Map Check
+[2017.11.02-14.37.44:656][  0]LightingResults: New page: Lighting Build
+[2017.11.02-14.37.44:893][  0]LogAIModule: Creating AISystem for world Minimal_Default
+[2017.11.02-14.37.44:899][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.11.02-14.37.44:907][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.11.02-14.37.44:936][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 28.215ms to complete.
+[2017.11.02-14.37.44:936][  0]LogFileHelpers: Loading map 'Minimal_Default' took 0.299
+[2017.11.02-14.37.45:016][  0]LogCollectionManager: Loaded 0 collections in 0.000623 seconds
+[2017.11.02-14.37.45:071][  0]LogFileCache: Scanning file cache for directory 'F:/Unreal Engine/Projects/Tutorial4Gamedev/Saved/Collections/' took 0.01s
+[2017.11.02-14.37.45:071][  0]LogFileCache: Scanning file cache for directory 'F:/Unreal Engine/Projects/Tutorial4Gamedev/Content/Developers/mharitsnf/Collections/' took 0.01s
+[2017.11.02-14.37.45:071][  0]LogFileCache: Scanning file cache for directory 'F:/Unreal Engine/Projects/Tutorial4Gamedev/Content/Collections/' took 0.01s
+[2017.11.02-14.37.45:071][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2017.11.02-14.37.45:078][  0]LogContentBrowser: Native class hierarchy populated in 0.0069 seconds. Added 2329 classes and 491 folders.
+[2017.11.02-14.37.45:108][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2017.11.02-14.37.45:133][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2017.11.02-14.37.45:184][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2017.11.02-14.37.45:236][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2017.11.02-14.37.45:240][  0]LogSlate: Took 0.000196 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.11.02-14.37.45:242][  0]LogSlate: Took 0.000116 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.11.02-14.37.45:243][  0]LogSlate: Took 0.000131 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.11.02-14.37.45:317][  0]LogRenderer: Reallocating scene render targets to support 1208x924 NumSamples 1 (Frame:1).
+[2017.11.02-14.37.45:446][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.11.02-14.37.45:489][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2017.11.02-14.37.45:490][  0]LogLoad: (Engine Initialization) Total time: 10.48 seconds
+[2017.11.02-14.37.45:490][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.05 seconds
+[2017.11.02-14.37.45:490][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2017.11.02-14.37.45:499][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.11.02-14.37.45:500][  0]LogOcInput: OculusInput pre-init called
+[2017.11.02-14.37.45:500][  0]LogHMD: Starting GearVRController plugin
+[2017.11.02-14.37.45:510][  0]LogAssetRegistry: Asset discovery search completed in 5.4446 seconds
+[2017.11.02-14.37.45:512][  0]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2017.11.02-14.37.45:512][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000017 seconds (updated 0 objects)
+[2017.11.02-14.37.45:514][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.11.02-14.37.45:527][  0]LogSlate: Took 0.000124 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.11.02-14.40.43:026][229]LogActorFactory: Actor Factory created SM_Couch
+[2017.11.02-14.40.44:267][374]LogActorFactory: Actor Factory created SM_Couch
+[2017.11.02-14.41.14:870][170]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Statue)
+[2017.11.02-14.41.19:697][729]LogSlate: Took 0.008914 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2017.11.02-14.41.25:566][427]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2017.11.02-14.41.46:210][886]MapCheck: New page: Map Check
+[2017.11.02-14.41.46:255][886]LightingResults: New page: Lighting Build - Nov 3, 2017, 4:41:46 AM
+[2017.11.02-14.41.46:358][886]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2017.11.02-14.41.46:463][886]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2017.11.02-14.41.46:474][886]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2017.11.02-14.41.46:991][886]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2017.11.02-14.41.46:991][886]LogSwarmInterface: [TryOpenConnection] Local Process ID is 7944
+[2017.11.02-14.41.53:987][886]LogStaticLightingSystem:Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2017.11.02-14.41.53:987][886]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2017.11.02-14.41.53:987][886]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2017.11.02-14.41.53:987][886]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2017.11.02-14.41.53:987][886]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2017.11.02-14.41.53:987][886]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2017.11.02-14.41.54:210][886]LogEditorBuildUtils: Build time 0:07
+[2017.11.02-14.41.54:216][886]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_Metal_Brushed_Nickel, compiling. 
+[2017.11.02-14.41.54:237][886]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_Metal_Brushed_Nickel, compiling. 
+[2017.11.02-14.41.54:254][887]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_TableRound, compiling. 
+[2017.11.02-14.41.54:260][887]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_TableRound, compiling. 
+[2017.11.02-14.41.54:309][888]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_Chair, compiling. 
+[2017.11.02-14.41.54:322][888]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_Chair, compiling. 
+[2017.11.02-14.41.54:338][889]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_Metal_Copper, compiling. 
+[2017.11.02-14.41.54:352][889]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_Metal_Copper, compiling. 
+[2017.11.02-14.41.54:379][890]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_StatueGlass, compiling. 
+[2017.11.02-14.41.54:384][890]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_StatueGlass, compiling. 
+[2017.11.02-14.41.54:398][891]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_Metal_Burnished_Steel, compiling. 
+[2017.11.02-14.41.54:403][891]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_Metal_Burnished_Steel, compiling. 
+[2017.11.02-14.41.58:192][988]Job is a success!
+[2017.11.02-14.41.58:228][989]LogSlate: Took 0.000119 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.11.02-14.41.58:424][989]LogTexture:Display: Building textures: SkyOcclusion1_1 (AutoDXT, 512X256)
+[2017.11.02-14.41.58:424][989]LogTexture:Display: Building textures: HQ_Lightmap1_1 (AutoDXT, 512X512)
+[2017.11.02-14.41.58:424][989]LogTexture:Display: Building textures: LQ_Lightmap_1_1 (DXT1, 512X512)
+[2017.11.02-14.41.58:424][989]LogTexture:Display: Building textures: LQ_Lightmap_1_2 (DXT1, 64X64)
+[2017.11.02-14.41.58:424][989]LogTexture:Display: Building textures: SkyOcclusion1_2 (AutoDXT, 64X32)
+[2017.11.02-14.41.58:424][989]LogTexture:Display: Building textures: HQ_Lightmap1_2 (AutoDXT, 64X64)
+[2017.11.02-14.41.58:424][989]LogTexture:Display: Building textures: ShadowMapTexture2D_3 (G8, 32X32)
+[2017.11.02-14.41.58:424][989]LogTexture:Display: Building textures: ShadowMapTexture2D_2 (G8, 1024X128)
+[2017.11.02-14.41.58:458][989]Lightmass on MHARITSNF-PC: 1.16 sec total, 119 ms importing, 30 ms setup, 276 ms photons, 712 ms processing, 0 ms extra exporting [8/8 mappings]. Threads: 4.82 sec total, 1.48 sec processing.
+[2017.11.02-14.41.58:488][989]LogStaticLightingSystem: Illumination: 12.2 sec (116 ms encoding lightmaps, 34 ms encoding shadowmaps)
+[2017.11.02-14.41.58:488][989]LogStaticLightingSystem: Lightmap texture memory:  0.7 MB (0.7 MB streaming, 0.0 MB non-streaming), 4 textures
+[2017.11.02-14.41.58:488][989]LogStaticLightingSystem: Shadowmap texture memory: 0.2 MB (0.2 MB streaming, 0.0 MB non-streaming), 2 textures
+[2017.11.02-14.41.58:978][989]DumpUnbuiltLightIteractions
+[2017.11.02-14.41.58:978][989]Lights with unbuilt interactions: 0
+[2017.11.02-14.41.58:978][989]
+[2017.11.02-14.41.58:978][989]Primitives with unbuilt interactions: 0
+[2017.11.02-14.41.59:102][990]Cmd: MAP CHECK NOTIFYRESULTS
+[2017.11.02-14.41.59:102][990]MapCheck: New page: Minimal_Default - Nov 3, 2017, 4:41:59 AM
+[2017.11.02-14.41.59:152][990]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 50.032ms to complete.
+[2017.11.02-14.41.59:451][ 21]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2017.11.02-14.42.00:626][160]LogEditorViewport: Clicking on Actor (context menu): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2017.11.02-14.42.01:754][288]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2017.11.02-14.42.45:330][776]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Statue)
+[2017.11.02-14.45.01:294][928]Cmd: TRANSACTION UNDO
+[2017.11.02-14.45.01:294][928]LogEditorTransaction: Undo Set actor scale
+[2017.11.02-14.45.01:300][928]LogSlate: Took 0.000183 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.11.02-14.45.05:551][437]Cmd: TRANSACTION UNDO
+[2017.11.02-14.45.05:551][437]LogEditorTransaction: Undo Set actor scale
+[2017.11.02-14.45.35:001][ 70]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2017.11.02-14.45.35:677][124]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2017.11.02-14.45.36:816][256]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Statue)
+[2017.11.02-14.45.55:504][476]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2017.11.02-14.45.59:536][955]MapCheck: New page: Map Check
+[2017.11.02-14.45.59:545][955]LightingResults: New page: Lighting Build - Nov 3, 2017, 4:45:59 AM
+[2017.11.02-14.45.59:551][955]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2017.11.02-14.45.59:552][955]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2017.11.02-14.45.59:552][955]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2017.11.02-14.45.59:553][955]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2017.11.02-14.45.59:553][955]LogSwarmInterface: [TryOpenConnection] Local Process ID is 7944
+[2017.11.02-14.46.29:077][955]LogStaticLightingSystem:Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2017.11.02-14.46.29:077][955]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2017.11.02-14.46.29:077][955]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2017.11.02-14.46.29:077][955]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2017.11.02-14.46.29:077][955]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2017.11.02-14.46.29:077][955]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2017.11.02-14.46.29:201][955]LogEditorBuildUtils: Build time 0:29
+[2017.11.02-14.46.30:527][ 40]Job is a success!
+[2017.11.02-14.46.30:690][ 41]LogTexture:Display: Building textures: SkyOcclusion0_1 (AutoDXT, 512X256)
+[2017.11.02-14.46.30:690][ 41]LogTexture:Display: Building textures: LQ_Lightmap_0_1 (DXT1, 512X512)
+[2017.11.02-14.46.30:690][ 41]LogTexture:Display: Building textures: HQ_Lightmap0_1 (AutoDXT, 512X512)
+[2017.11.02-14.46.30:690][ 41]LogTexture:Display: Building textures: HQ_Lightmap0_2 (AutoDXT, 64X64)
+[2017.11.02-14.46.30:690][ 41]LogTexture:Display: Building textures: LQ_Lightmap_0_2 (DXT1, 64X64)
+[2017.11.02-14.46.30:690][ 41]LogTexture:Display: Building textures: SkyOcclusion0_2 (AutoDXT, 64X32)
+[2017.11.02-14.46.30:690][ 41]LogTexture:Display: Building textures: ShadowMapTexture2D_5 (G8, 32X32)
+[2017.11.02-14.46.30:690][ 41]LogTexture:Display: Building textures: ShadowMapTexture2D_4 (BGRA8, 1024X128)
+[2017.11.02-14.46.30:706][ 41]Lightmass on MHARITSNF-PC: 1.05 sec total, 98 ms importing, 24 ms setup, 271 ms photons, 642 ms processing, 0 ms extra exporting [8/8 mappings]. Threads: 4.33 sec total, 1.60 sec processing.
+[2017.11.02-14.46.30:710][ 41]LogStaticLightingSystem: Illumination: 31.1 sec (97 ms encoding lightmaps, 29 ms encoding shadowmaps)
+[2017.11.02-14.46.30:710][ 41]LogStaticLightingSystem: Lightmap texture memory:  0.7 MB (0.7 MB streaming, 0.0 MB non-streaming), 4 textures
+[2017.11.02-14.46.30:710][ 41]LogStaticLightingSystem: Shadowmap texture memory: 0.7 MB (0.7 MB streaming, 0.0 MB non-streaming), 2 textures
+[2017.11.02-14.46.31:075][ 41]DumpUnbuiltLightIteractions
+[2017.11.02-14.46.31:075][ 41]Lights with unbuilt interactions: 0
+[2017.11.02-14.46.31:075][ 41]
+[2017.11.02-14.46.31:075][ 41]Primitives with unbuilt interactions: 0
+[2017.11.02-14.46.31:195][ 42]Cmd: MAP CHECK NOTIFYRESULTS
+[2017.11.02-14.46.31:196][ 42]MapCheck: New page: Minimal_Default - Nov 3, 2017, 4:46:31 AM
+[2017.11.02-14.46.31:226][ 42]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 30.74ms to complete.
+[2017.11.02-14.47.22:746][876]LogSavePackage: Save=141.19ms
+[2017.11.02-14.47.22:746][876]LogSavePackage: Moving '../../../../Projects/Tutorial4Gamedev/Saved/Minimal_Default4A09B0674E226F0936F4729E9DF0A3AF.tmp' to '../../../../Projects/Tutorial4Gamedev/Content/StarterContent/Maps/Minimal_Default.umap'
+[2017.11.02-14.47.22:751][876]LogSavePackage:Display: Finished SavePackage ../../../../Projects/Tutorial4Gamedev/Content/StarterContent/Maps/Minimal_Default.umap
+[2017.11.02-14.47.22:779][876]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StarterContent/Maps/Minimal_Default_BuiltData" FILE="../../../../Projects/Tutorial4Gamedev/Content/StarterContent/Maps/Minimal_Default_BuiltData.uasset" SILENT=true
+[2017.11.02-14.47.22:810][876]LogSavePackage: Save=27.21ms
+[2017.11.02-14.47.22:810][876]LogSavePackage: Moving '../../../../Projects/Tutorial4Gamedev/Saved/Minimal_Default_BuiltData06446C434D0E086E21BF2B9A5094D120.tmp' to '../../../../Projects/Tutorial4Gamedev/Content/StarterContent/Maps/Minimal_Default_BuiltData.uasset'
+[2017.11.02-14.47.22:811][876]LogSavePackage:Display: Finished SavePackage ../../../../Projects/Tutorial4Gamedev/Content/StarterContent/Maps/Minimal_Default_BuiltData.uasset
+[2017.11.02-14.47.28:028][304]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StarterContent/Tutorial3/Level2" FILE="../../../../Projects/Tutorial4Gamedev/Content/StarterContent/Tutorial3/Level2.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.11.02-14.47.28:042][304]LogSavePackage: Save=6.46ms
+[2017.11.02-14.47.28:042][304]LogSavePackage: Moving '../../../../Projects/Tutorial4Gamedev/Saved/Level277FD9DCF44F7D479CC0A91A4F80D8277.tmp' to '../../../../Projects/Tutorial4Gamedev/Content/StarterContent/Tutorial3/Level2.umap'
+[2017.11.02-14.47.28:043][304]LogSavePackage:Display: Finished SavePackage ../../../../Projects/Tutorial4Gamedev/Content/StarterContent/Tutorial3/Level2.umap
+[2017.11.02-14.47.28:043][304]LogFileHelpers: Saving map 'Level2' took 0.044
+[2017.11.02-14.47.28:060][304]Cmd: MAP LOAD FILE="../../../../Projects/Tutorial4Gamedev/Content/StarterContent/Tutorial3/Level2.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.11.02-14.47.28:060][304]LightingResults: New page: Lighting Build
+[2017.11.02-14.47.28:060][304]LoadErrors: New page: Loading map: Level2.umap
+[2017.11.02-14.47.28:061][304]MapCheck: New page: Map Check
+[2017.11.02-14.47.28:061][304]LightingResults: New page: Lighting Build
+[2017.11.02-14.47.28:098][304]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.11.02-14.47.28:098][304]LogAIModule: Creating AISystem for world Level2
+[2017.11.02-14.47.28:106][304]LogSlate: Took 0.000126 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.11.02-14.47.28:123][304]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.11.02-14.47.28:152][304]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 28.811ms to complete.
+[2017.11.02-14.47.28:153][304]LogFileHelpers: Loading map 'Level2' took 0.094
+[2017.11.02-14.47.45:292][366]Cmd: BRUSH ADD SELECTNEWBRUSH
+[2017.11.02-14.47.47:011][567]Cmd: TRANSACTION UNDO
+[2017.11.02-14.47.47:011][567]LogEditorTransaction: Undo Rotate Actors
+[2017.11.02-14.47.50:335][956]Cmd: DELETE
+[2017.11.02-14.47.50:335][956]Cmd: ACTOR DELETE
+[2017.11.02-14.47.50:376][956]LogEditorActor: Deleted Actor: Brush
+[2017.11.02-14.47.50:383][956]LogEditorActor: Deleted 1 Actors (0.007 secs)
+[2017.11.02-14.47.54:795][484]Cmd: BRUSH ADD SELECTNEWBRUSH
+[2017.11.02-14.48.12:207][554]Cmd: BRUSH ADD SELECTNEWBRUSH
+[2017.11.02-14.48.16:403][ 42]Cmd: DELETE
+[2017.11.02-14.48.16:403][ 42]Cmd: ACTOR DELETE
+[2017.11.02-14.48.16:403][ 42]LogEditorActor: Deleted Actor: Brush
+[2017.11.02-14.48.16:412][ 42]LogEditorActor: Deleted 1 Actors (0.009 secs)
+[2017.11.02-14.48.59:456][687]Cmd: SELECT NONE
+[2017.11.02-14.49.00:869][852]Cmd: EDIT COPY
+[2017.11.02-14.49.01:092][876]Cmd: EDIT PASTE
+[2017.11.02-14.49.08:937][803]Cmd: EDIT COPY
+[2017.11.02-14.49.09:137][827]Cmd: EDIT PASTE
+[2017.11.02-14.49.15:409][566]Cmd: EDIT COPY
+[2017.11.02-14.49.15:576][585]Cmd: EDIT PASTE
+[2017.11.02-14.49.18:029][865]LogEditorViewport: Clicking Background
+[2017.11.02-14.49.53:575][145]LogEditorViewport: Clicking Background
+[2017.11.02-14.49.54:893][300]MapCheck: New page: Map Check
+[2017.11.02-14.49.54:904][300]Cmd: MAP REBUILD ALLVISIBLE
+[2017.11.02-14.49.54:904][300]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2017.11.02-14.49.54:948][300]LightingResults: New page: Lighting Build - Nov 3, 2017, 4:49:54 AM
+[2017.11.02-14.49.54:953][300]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2017.11.02-14.49.54:954][300]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2017.11.02-14.49.54:955][300]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2017.11.02-14.49.54:955][300]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2017.11.02-14.49.54:955][300]LogSwarmInterface: [TryOpenConnection] Local Process ID is 7944
+[2017.11.02-14.50.38:965][300]LogStaticLightingSystem:Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2017.11.02-14.50.38:965][300]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2017.11.02-14.50.38:965][300]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2017.11.02-14.50.38:965][300]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2017.11.02-14.50.38:965][300]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2017.11.02-14.50.38:965][300]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2017.11.02-14.50.39:060][300]LogEditorBuildUtils: Build time 0:44
+[2017.11.02-14.50.40:081][358]Job is a success!
+[2017.11.02-14.50.40:139][360]LogTexture:Display: Building textures: HQ_Lightmap0_1 (AutoDXT, 128X128)
+[2017.11.02-14.50.40:139][360]LogTexture:Display: Building textures: LQ_Lightmap_0_1 (DXT1, 128X128)
+[2017.11.02-14.50.40:139][360]LogTexture:Display: Building textures: ShadowMapTexture2D_0 (G8, 128X32)
+[2017.11.02-14.50.40:153][360]Lightmass on MHARITSNF-PC: 596 ms total, 79 ms importing, 15 ms setup, 269 ms photons, 212 ms processing, 0 ms extra exporting [6/6 mappings]. Threads: 1.33 sec total, 13 ms processing.
+[2017.11.02-14.50.40:158][360]LogStaticLightingSystem: Illumination: 45.2 sec (1 ms encoding lightmaps, 7 ms encoding shadowmaps)
+[2017.11.02-14.50.40:158][360]LogStaticLightingSystem: Lightmap texture memory:  0.0 MB (0.0 MB streaming, 0.0 MB non-streaming), 2 textures
+[2017.11.02-14.50.40:158][360]LogStaticLightingSystem: Shadowmap texture memory: 0.0 MB (0.0 MB streaming, 0.0 MB non-streaming), 1 textures
+[2017.11.02-14.50.40:967][360]DumpUnbuiltLightIteractions
+[2017.11.02-14.50.40:967][360]Lights with unbuilt interactions: 0
+[2017.11.02-14.50.40:967][360]
+[2017.11.02-14.50.40:967][360]Primitives with unbuilt interactions: 0
+[2017.11.02-14.50.40:975][361]Cmd: MAP CHECK NOTIFYRESULTS
+[2017.11.02-14.50.40:975][361]MapCheck: New page: Level2 - Nov 3, 2017, 4:50:40 AM
+[2017.11.02-14.50.41:006][361]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 30.767ms to complete.
+[2017.11.02-14.51.29:459][660]Cmd: BRUSH ADD SELECTNEWBRUSH
+[2017.11.02-14.51.52:056][309]LogEditorViewport: Clicking Background
+[2017.11.02-14.51.53:792][509]MapCheck: New page: Map Check
+[2017.11.02-14.51.53:803][509]Cmd: MAP REBUILD ALLVISIBLE
+[2017.11.02-14.51.53:803][509]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2017.11.02-14.51.53:856][509]LightingResults: New page: Lighting Build - Nov 3, 2017, 4:51:53 AM
+[2017.11.02-14.51.53:861][509]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2017.11.02-14.51.53:863][509]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2017.11.02-14.51.53:863][509]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2017.11.02-14.51.53:863][509]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2017.11.02-14.51.53:864][509]LogSwarmInterface: [TryOpenConnection] Local Process ID is 7944
+[2017.11.02-14.52.37:874][509]LogStaticLightingSystem:Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2017.11.02-14.52.37:874][509]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2017.11.02-14.52.37:874][509]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2017.11.02-14.52.37:875][509]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2017.11.02-14.52.37:875][509]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2017.11.02-14.52.37:875][509]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2017.11.02-14.52.37:987][509]LogEditorBuildUtils: Build time 0:44
+[2017.11.02-14.52.38:965][573]Job is a success!
+[2017.11.02-14.52.39:004][575]LogTexture:Display: Building textures: HQ_Lightmap1_1 (AutoDXT, 128X128)
+[2017.11.02-14.52.39:004][575]LogTexture:Display: Building textures: LQ_Lightmap_1_1 (DXT1, 128X128)
+[2017.11.02-14.52.39:004][575]LogTexture:Display: Building textures: ShadowMapTexture2D_1 (G8, 128X32)
+[2017.11.02-14.52.39:016][575]Lightmass on MHARITSNF-PC: 576 ms total, 79 ms importing, 15 ms setup, 270 ms photons, 191 ms processing, 0 ms extra exporting [11/11 mappings]. Threads: 1.18 sec total, 13 ms processing.
+[2017.11.02-14.52.39:022][575]LogStaticLightingSystem: Illumination: 45.1 sec (3 ms encoding lightmaps, 4 ms encoding shadowmaps)
+[2017.11.02-14.52.39:022][575]LogStaticLightingSystem: Lightmap texture memory:  0.0 MB (0.0 MB streaming, 0.0 MB non-streaming), 2 textures
+[2017.11.02-14.52.39:022][575]LogStaticLightingSystem: Shadowmap texture memory: 0.0 MB (0.0 MB streaming, 0.0 MB non-streaming), 1 textures
+[2017.11.02-14.52.39:876][575]DumpUnbuiltLightIteractions
+[2017.11.02-14.52.39:876][575]Lights with unbuilt interactions: 0
+[2017.11.02-14.52.39:876][575]
+[2017.11.02-14.52.39:876][575]Primitives with unbuilt interactions: 0
+[2017.11.02-14.52.39:883][576]Cmd: MAP CHECK NOTIFYRESULTS
+[2017.11.02-14.52.39:884][576]MapCheck: New page: Level2 - Nov 3, 2017, 4:52:39 AM
+[2017.11.02-14.52.39:913][576]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 29.399ms to complete.
+[2017.11.02-14.53.22:159][545]Cmd: EDIT COPY
+[2017.11.02-14.53.22:358][565]Cmd: EDIT PASTE
+[2017.11.02-14.53.25:804][951]Cmd: EDIT COPY
+[2017.11.02-14.53.25:988][973]Cmd: EDIT PASTE
+[2017.11.02-14.53.29:704][412]Cmd: EDIT COPY
+[2017.11.02-14.53.29:908][436]Cmd: EDIT PASTE
+[2017.11.02-14.53.34:617][977]Cmd: EDIT COPY
+[2017.11.02-14.53.34:808][  0]Cmd: EDIT PASTE
+[2017.11.02-14.53.51:799][969]Cmd: EDIT COPY
+[2017.11.02-14.53.52:007][994]Cmd: EDIT PASTE
+[2017.11.02-14.53.57:408][621]Cmd: EDIT COPY
+[2017.11.02-14.53.57:575][635]Cmd: EDIT PASTE
+[2017.11.02-14.54.01:678][112]Cmd: EDIT COPY
+[2017.11.02-14.54.01:871][131]Cmd: EDIT PASTE
+[2017.11.02-14.54.04:988][485]Cmd: EDIT COPY
+[2017.11.02-14.54.05:217][512]Cmd: EDIT PASTE
+[2017.11.02-14.54.08:196][860]Cmd: EDIT COPY
+[2017.11.02-14.54.08:387][883]Cmd: EDIT PASTE
+[2017.11.02-14.54.14:064][527]Cmd: EDIT COPY
+[2017.11.02-14.54.14:268][551]Cmd: EDIT PASTE
+[2017.11.02-14.54.17:494][927]Cmd: EDIT COPY
+[2017.11.02-14.54.17:715][953]Cmd: EDIT PASTE
+[2017.11.02-14.54.56:908][209]Cmd: EDIT COPY
+[2017.11.02-14.54.57:149][238]Cmd: EDIT PASTE
+[2017.11.02-14.55.26:134][686]Cmd: SELECT NONE
+[2017.11.02-14.55.42:213][841]Cmd: EDIT COPY
+[2017.11.02-14.55.43:701][ 19]Cmd: EDIT PASTE
+[2017.11.02-14.55.56:763][524]Cmd: DELETE
+[2017.11.02-14.55.56:763][524]Cmd: ACTOR DELETE
+[2017.11.02-14.55.56:763][524]LogEditorActor: Deleted Actor: Brush
+[2017.11.02-14.55.56:776][524]LogEditorActor: Deleted 1 Actors (0.013 secs)
+[2017.11.02-14.55.58:169][687]Cmd: EDIT COPY
+[2017.11.02-14.55.58:439][719]Cmd: EDIT PASTE
+[2017.11.02-14.56.04:012][373]Cmd: EDIT COPY
+[2017.11.02-14.56.04:210][396]Cmd: EDIT PASTE
+[2017.11.02-14.56.09:190][967]Cmd: EDIT COPY
+[2017.11.02-14.56.09:394][991]Cmd: EDIT PASTE
+[2017.11.02-14.56.16:719][836]Cmd: EDIT COPY
+[2017.11.02-14.56.16:931][861]Cmd: EDIT PASTE
+[2017.11.02-14.56.55:938][904]Cmd: BRUSH ADD SELECTNEWBRUSH
+[2017.11.02-14.58.16:598][354]LogEditorViewport: Clicking Background
+[2017.11.02-14.58.26:670][554]LogEditorViewport: Clicking Background
+[2017.11.02-14.58.27:446][646]Cmd: TRANSACTION UNDO
+[2017.11.02-14.58.27:446][646]LogEditorTransaction: Undo Clicking Background
+[2017.11.02-14.58.28:020][711]Cmd: TRANSACTION UNDO
+[2017.11.02-14.58.28:020][711]LogEditorTransaction: Undo Set actor scale
+[2017.11.02-14.58.55:588][984]LogEditorViewport: Clicking Background
+[2017.11.02-15.00.09:046][ 92]LogSavePackage: Save=132.73ms
+[2017.11.02-15.00.09:046][ 92]LogSavePackage: Moving '../../../../Projects/Tutorial4Gamedev/Saved/Level2_Auto15F5996A44F6EB65B4957C095C50C1FB1.tmp' to '../../../../Projects/Tutorial4Gamedev/Saved/Autosaves/Game/StarterContent/Tutorial3/Level2_Auto1.umap'
+[2017.11.02-15.00.09:046][ 92]LogSavePackage:Display: Finished SavePackage ../../../../Projects/Tutorial4Gamedev/Saved/Autosaves/Game/StarterContent/Tutorial3/Level2_Auto1.umap
+[2017.11.02-15.00.09:050][ 92]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/StarterContent/Tutorial3/Level2' took 0.168
+[2017.11.02-15.00.09:050][ 92]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.168
+[2017.11.02-15.00.09:052][ 92]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/StarterContent/Tutorial3/Level2_BuiltData] ([1] browsable assets)...
+[2017.11.02-15.00.09:052][ 92]OBJ SavePackage: Finished generating thumbnails for package [/Game/StarterContent/Tutorial3/Level2_BuiltData]
+[2017.11.02-15.00.09:058][ 92]LogSavePackage: Save=4.86ms
+[2017.11.02-15.00.09:058][ 92]LogSavePackage: Moving '../../../../Projects/Tutorial4Gamedev/Saved/Level2_BuiltData_Auto16217C4894D6A737A3F36DBA0F912BD77.tmp' to '../../../../Projects/Tutorial4Gamedev/Saved/Autosaves/Game/StarterContent/Tutorial3/Level2_BuiltData_Auto1.uasset'
+[2017.11.02-15.00.09:058][ 92]LogSavePackage:Display: Finished SavePackage ../../../../Projects/Tutorial4Gamedev/Saved/Autosaves/Game/StarterContent/Tutorial3/Level2_BuiltData_Auto1.uasset
+[2017.11.02-15.00.09:058][ 92]LogFileHelpers: Auto-saving content packages took 0.007
+[2017.11.02-15.01.26:713][457]LogEditorViewport: Clicking Background
+[2017.11.02-15.01.50:355][235]LogGeometryMode:Warning: Unable to find BoxBrush9 Brush(s) in new BSP
+[2017.11.02-15.01.50:355][235]LogGeometryMode:Warning: Unable to find all previously selected geometry data, resetting selection
+[2017.11.02-15.02.15:017][ 65]Cmd: TRANSACTION UNDO
+[2017.11.02-15.02.15:017][ 65]LogEditorTransaction: Undo Move Actors
+[2017.11.02-15.02.15:022][ 65]LogActorComponent: ~FComponentReregisterContext: (/Game/StarterContent/Tutorial3/Level2.Level2:PersistentLevel.BoxBrush19.BrushComponent0) Component already registered.
+[2017.11.02-15.02.15:022][ 65]LogActorComponent: ~FComponentReregisterContext: (/Game/StarterContent/Tutorial3/Level2.Level2:PersistentLevel.BoxBrush20.BrushComponent0) Component already registered.
+[2017.11.02-15.02.15:022][ 65]LogActorComponent: ~FComponentReregisterContext: (/Game/StarterContent/Tutorial3/Level2.Level2:PersistentLevel.BoxBrush11_27.BrushComponent0) Component already registered.
+[2017.11.02-15.02.15:023][ 65]LogActorComponent: ~FComponentReregisterContext: (/Game/StarterContent/Tutorial3/Level2.Level2:PersistentLevel.BoxBrush13.BrushComponent0) Component already registered.
+[2017.11.02-15.02.15:023][ 65]LogActorComponent: ~FComponentReregisterContext: (/Game/StarterContent/Tutorial3/Level2.Level2:PersistentLevel.BoxBrush14.BrushComponent0) Component already registered.
+[2017.11.02-15.02.15:023][ 65]LogActorComponent: ~FComponentReregisterContext: (/Game/StarterContent/Tutorial3/Level2.Level2:PersistentLevel.BoxBrush16.BrushComponent0) Component already registered.
+[2017.11.02-15.02.15:024][ 65]LogGeometryMode:Warning: Unable to find 1 Edge(s) in new BSP
+[2017.11.02-15.02.15:024][ 65]LogGeometryMode:Warning: Unable to resolve CurvedStairBrush Brush in new BSP, see above
+[2017.11.02-15.02.15:024][ 65]LogGeometryMode:Warning: Unable to find all previously selected geometry data, resetting selection
+[2017.11.02-15.02.16:433][229]Cmd: TRANSACTION UNDO
+[2017.11.02-15.02.16:433][229]LogEditorTransaction: Undo Modifier [Edit]
+[2017.11.02-15.02.19:144][546]Cmd: TRANSACTION UNDO
+[2017.11.02-15.02.19:144][546]LogEditorTransaction: Undo Move Actors
+[2017.11.02-15.02.19:150][546]LogActorComponent: ~FComponentReregisterContext: (/Game/StarterContent/Tutorial3/Level2.Level2:PersistentLevel.BoxBrush19.BrushComponent0) Component already registered.
+[2017.11.02-15.02.19:150][546]LogActorComponent: ~FComponentReregisterContext: (/Game/StarterContent/Tutorial3/Level2.Level2:PersistentLevel.BoxBrush20.BrushComponent0) Component already registered.
+[2017.11.02-15.02.19:150][546]LogActorComponent: ~FComponentReregisterContext: (/Game/StarterContent/Tutorial3/Level2.Level2:PersistentLevel.BoxBrush11_27.BrushComponent0) Component already registered.
+[2017.11.02-15.02.19:150][546]LogActorComponent: ~FComponentReregisterContext: (/Game/StarterContent/Tutorial3/Level2.Level2:PersistentLevel.BoxBrush13.BrushComponent0) Component already registered.
+[2017.11.02-15.02.19:150][546]LogActorComponent: ~FComponentReregisterContext: (/Game/StarterContent/Tutorial3/Level2.Level2:PersistentLevel.BoxBrush14.BrushComponent0) Component already registered.
+[2017.11.02-15.02.19:150][546]LogActorComponent: ~FComponentReregisterContext: (/Game/StarterContent/Tutorial3/Level2.Level2:PersistentLevel.BoxBrush16.BrushComponent0) Component already registered.
+[2017.11.02-15.02.28:735][652]Cmd: SELECT NONE
+[2017.11.02-15.02.30:312][835]Cmd: DELETE
+[2017.11.02-15.02.30:319][835]Cmd: ACTOR DELETE
+[2017.11.02-15.02.30:319][835]LogEditorActor: Deleted Actor: Brush
+[2017.11.02-15.02.30:332][835]LogEditorActor: Deleted 1 Actors (0.013 secs)
+[2017.11.02-15.02.40:721][ 78]Cmd: BRUSH ADD SELECTNEWBRUSH
+[2017.11.02-15.03.15:059][140]Cmd: DELETE
+[2017.11.02-15.03.15:059][140]Cmd: ACTOR DELETE
+[2017.11.02-15.03.15:059][140]LogEditorActor: Deleted Actor: Brush
+[2017.11.02-15.03.15:073][140]LogEditorActor: Deleted 1 Actors (0.015 secs)
+[2017.11.02-15.03.16:428][299]Cmd: BRUSH ADD SELECTNEWBRUSH
+[2017.11.02-15.03.59:288][346]LogEditorViewport: Clicking Background
+[2017.11.02-15.04.15:905][299]LogEditorViewport: Clicking Background
+[2017.11.02-15.04.24:790][326]Cmd: SELECT NONE
+[2017.11.02-15.04.32:595][857]Cmd: EDIT COPY
+[2017.11.02-15.04.32:843][886]Cmd: EDIT PASTE
+[2017.11.02-15.04.41:345][894]Cmd: EDIT COPY
+[2017.11.02-15.04.41:566][920]Cmd: EDIT PASTE
+[2017.11.02-15.04.57:706][836]Cmd: EDIT COPY
+[2017.11.02-15.04.58:052][877]Cmd: EDIT PASTE
+[2017.11.02-15.05.17:407][184]LogEditorViewport: Clicking Background
+[2017.11.02-15.05.22:943][834]LogEditorViewport: Clicking Background
+[2017.11.02-15.05.42:378][122]Cmd: EDIT COPY
+[2017.11.02-15.05.42:648][154]Cmd: EDIT PASTE
+[2017.11.02-15.05.46:068][557]LogEditorViewport: Clicking Background
+[2017.11.02-15.05.54:115][492]Cmd: EDIT COPY
+[2017.11.02-15.05.54:365][522]Cmd: EDIT PASTE
+[2017.11.02-15.05.56:502][771]LogEditorViewport: Clicking Background
+[2017.11.02-15.06.06:458][926]Cmd: EDIT COPY
+[2017.11.02-15.06.06:716][957]Cmd: EDIT PASTE
+[2017.11.02-15.06.17:227][168]Cmd: EDIT COPY
+[2017.11.02-15.06.17:640][217]Cmd: EDIT PASTE
+[2017.11.02-15.06.42:948][228]LogEditorViewport: Clicking Background
+[2017.11.02-15.06.50:090][ 59]LogEditorViewport: Clicking Background
+[2017.11.02-15.10.57:960][721]Cmd: EDIT COPY
+[2017.11.02-15.10.58:278][759]Cmd: EDIT PASTE
+[2017.11.02-15.11.11:041][257]LogEditorViewport: Clicking Background
+[2017.11.02-15.11.32:341][726]Cmd: SELECT NONE
+[2017.11.02-15.12.13:684][456]Cmd: SELECT NONE
+[2017.11.02-15.13.40:889][652]LogEditorViewport: Clicking Background
+[2017.11.02-15.13.41:225][691]LogEditorViewport: Clicking Background
+[2017.11.02-15.13.45:101][137]Cmd: EDIT COPY
+[2017.11.02-15.13.45:373][169]Cmd: EDIT PASTE
+[2017.11.02-15.13.50:012][717]Cmd: EDIT COPY
+[2017.11.02-15.13.50:292][750]Cmd: EDIT PASTE
+[2017.11.02-15.13.53:399][112]Cmd: EDIT COPY
+[2017.11.02-15.13.53:632][138]Cmd: EDIT PASTE
+[2017.11.02-15.13.56:889][496]Cmd: EDIT COPY
+[2017.11.02-15.13.57:070][511]Cmd: EDIT PASTE
+[2017.11.02-15.14.00:542][895]Cmd: EDIT COPY
+[2017.11.02-15.14.00:742][918]Cmd: EDIT PASTE
+[2017.11.02-15.14.04:460][348]Cmd: EDIT COPY
+[2017.11.02-15.14.04:654][366]Cmd: EDIT PASTE
+[2017.11.02-15.14.10:063][959]Cmd: EDIT COPY
+[2017.11.02-15.14.10:296][986]Cmd: EDIT PASTE
+[2017.11.02-15.14.13:250][320]Cmd: EDIT COPY
+[2017.11.02-15.14.13:445][335]Cmd: EDIT PASTE
+[2017.11.02-15.14.23:299][500]Cmd: EDIT COPY
+[2017.11.02-15.14.23:572][530]Cmd: EDIT PASTE
+[2017.11.02-15.14.26:229][841]Cmd: EDIT COPY
+[2017.11.02-15.14.26:488][871]Cmd: EDIT PASTE
+[2017.11.02-15.14.31:026][383]Cmd: EDIT COPY
+[2017.11.02-15.14.31:289][414]Cmd: EDIT PASTE
+[2017.11.02-15.14.39:274][269]LogEditorViewport: Clicking Background
+[2017.11.02-15.14.42:296][610]Cmd: EDIT COPY
+[2017.11.02-15.14.42:527][637]Cmd: EDIT PASTE
+[2017.11.02-15.14.49:130][387]Cmd: EDIT COPY
+[2017.11.02-15.14.49:380][417]Cmd: EDIT PASTE
+[2017.11.02-15.14.54:354][  5]Cmd: EDIT COPY
+[2017.11.02-15.14.54:570][ 30]Cmd: EDIT PASTE
+[2017.11.02-15.15.01:550][840]LogEditorViewport: Clicking Background
+[2017.11.02-15.15.37:107][939]Cmd: EDIT COPY
+[2017.11.02-15.15.37:398][973]Cmd: EDIT PASTE
+[2017.11.02-15.15.46:644][ 40]LogEditorViewport: Clicking Background
+[2017.11.02-15.16.05:813][293]Cmd: DELETE
+[2017.11.02-15.16.05:813][293]Cmd: ACTOR DELETE
+[2017.11.02-15.16.05:814][293]LogEditorActor: Deleted Actor: Brush
+[2017.11.02-15.16.05:842][293]LogEditorActor: Deleted 1 Actors (0.028 secs)
+[2017.11.02-15.16.17:128][574]LogEditorViewport: Clicking Background
+[2017.11.02-15.16.51:559][655]LogSavePackage: Save=209.98ms
+[2017.11.02-15.16.51:559][655]LogSavePackage: Moving '../../../../Projects/Tutorial4Gamedev/Saved/Level2_Auto2ADCFDE9547AF18CA986895B379E97BB5.tmp' to '../../../../Projects/Tutorial4Gamedev/Saved/Autosaves/Game/StarterContent/Tutorial3/Level2_Auto2.umap'
+[2017.11.02-15.16.51:559][655]LogSavePackage:Display: Finished SavePackage ../../../../Projects/Tutorial4Gamedev/Saved/Autosaves/Game/StarterContent/Tutorial3/Level2_Auto2.umap
+[2017.11.02-15.16.51:562][655]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/StarterContent/Tutorial3/Level2' took 0.250
+[2017.11.02-15.16.51:562][655]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.250
+[2017.11.02-15.19.44:622][395]LogEditorViewport: Clicking Background
+[2017.11.02-15.19.49:531][977]LogEditorViewport: Clicking Background
+[2017.11.02-15.19.55:002][605]LogEditorViewport: Clicking Background
+[2017.11.02-15.20.29:094][678]Cmd: TRANSACTION UNDO
+[2017.11.02-15.20.29:094][678]LogEditorTransaction: Undo Create Actors
+[2017.11.02-15.20.29:115][678]LogPhysics:Warning: FDerivedDataPhysXCooker::BuildTriMesh: Triangle data from '/Game/StarterContent/Tutorial3/Level2.Level2:PersistentLevel.ModelComponent_1301' invalid (948 verts, 0 indices).
+[2017.11.02-15.20.39:452][905]LogEditorViewport: Clicking Background
+[2017.11.02-15.20.41:821][188]Cmd: TRANSACTION UNDO
+[2017.11.02-15.20.41:821][188]LogEditorTransaction: Undo Clicking Background
+[2017.11.02-15.20.43:810][419]LogEditorViewport: Clicking Background
+[2017.11.02-15.21.25:146][294]Cmd: SELECT NONE
+[2017.11.02-15.24.26:946][672]LogEditorViewport: Clicking Background
+[2017.11.02-15.24.41:203][361]LogActorFactory: Actor Factory created SM_Couch
+[2017.11.02-15.24.42:219][482]LogActorFactory: Actor Factory created SM_Couch
+[2017.11.02-15.25.01:948][825]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Couch)
+[2017.11.02-15.25.16:841][600]Cmd: SELECT NONE
+[2017.11.02-15.25.17:394][666]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Couch)
+[2017.11.02-15.25.24:705][535]Cmd: SELECT NONE
+[2017.11.02-15.25.32:704][478]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Couch)
+[2017.11.02-15.25.37:934][ 89]Cmd: EDIT COPY
+[2017.11.02-15.25.38:172][117]Cmd: EDIT PASTE
+[2017.11.02-15.26.07:677][532]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Couch2)
+[2017.11.02-15.26.08:210][590]Cmd: DELETE
+[2017.11.02-15.26.08:210][590]Cmd: ACTOR DELETE
+[2017.11.02-15.26.08:211][590]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.11.02-15.26.08:229][590]LogEditorActor: Deleted 1 Actors (0.019 secs)
+[2017.11.02-15.26.13:489][219]LogActorFactory: Actor Factory created SM_TableRound
+[2017.11.02-15.26.16:760][610]LogActorFactory: Actor Factory created SM_TableRound
+[2017.11.02-15.26.17:795][728]Cmd: SELECT NONE
+[2017.11.02-15.26.19:993][982]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_TableRound)
+[2017.11.02-15.26.20:694][ 60]Cmd: DELETE
+[2017.11.02-15.26.20:694][ 60]Cmd: ACTOR DELETE
+[2017.11.02-15.26.20:695][ 60]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.11.02-15.26.20:705][ 60]LogEditorActor: Deleted 1 Actors (0.011 secs)
+[2017.11.02-15.26.22:202][239]LogActorFactory: Actor Factory created SM_Statue
+[2017.11.02-15.26.24:146][471]LogActorFactory: Actor Factory created SM_Statue
+[2017.11.02-15.26.49:840][499]Cmd: SELECT NONE
+[2017.11.02-15.26.53:929][966]LogEditorViewport: Clicking on Actor (double click): Brush (Box Brush28)
+[2017.11.02-15.26.54:675][ 52]Cmd: DELETE
+[2017.11.02-15.26.54:684][ 52]Cmd: ACTOR DELETE
+[2017.11.02-15.26.54:685][ 52]LogEditorActor: Deleted Actor: Brush
+[2017.11.02-15.26.54:706][ 52]LogEditorActor: Deleted 1 Actors (0.021 secs)
+[2017.11.02-15.26.55:984][196]LogActorFactory: Actor Factory created SM_PillarFrame300
+[2017.11.02-15.26.59:148][572]LogActorFactory: Actor Factory created SM_PillarFrame
+[2017.11.02-15.26.59:937][666]LogActorFactory: Actor Factory created SM_PillarFrame
+[2017.11.02-15.27.05:449][321]Cmd: TRANSACTION UNDO
+[2017.11.02-15.27.05:449][321]LogEditorTransaction: Undo Set actor scale
+[2017.11.02-15.27.33:495][644]LogEditorViewport: Clicking Background
+[2017.11.02-15.27.48:085][372]LogActorFactory: Actor Factory created SM_Shelf
+[2017.11.02-15.28.02:760][129]LogActorFactory: Actor Factory created SM_WindowFrame
+[2017.11.02-15.28.06:199][541]LogActorFactory: Actor Factory created SM_WindowFrame
+[2017.11.02-15.28.16:684][750]Cmd: SELECT NONE
+[2017.11.02-15.28.24:776][701]Cmd: EDIT COPY
+[2017.11.02-15.28.25:044][733]Cmd: EDIT PASTE
+[2017.11.02-15.29.07:290][782]LogEditorViewport: Clicking Background
+[2017.11.02-15.29.13:107][460]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_WindowFrame)
+[2017.11.02-15.29.21:182][417]Cmd: SELECT NONE
+[2017.11.02-15.29.29:470][402]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_WindowFrame)
+[2017.11.02-15.29.41:320][808]LogEditorViewport: Clicking Background
+[2017.11.02-15.29.41:773][861]LogEditorViewport: Clicking Background
+[2017.11.02-15.29.45:090][250]Cmd: SELECT NONE
+[2017.11.02-15.29.52:738][155]LogActorFactory: Actor Factory created SM_DoorFrame
+[2017.11.02-15.29.56:012][547]LogActorFactory: Actor Factory created SM_DoorFrame
+[2017.11.02-15.30.03:821][454]LogActorFactory: Actor Factory created SM_Door
+[2017.11.02-15.30.06:917][822]LogActorFactory: Actor Factory created SM_Door
+[2017.11.02-15.30.54:790][548]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_DoorFrame)
+[2017.11.02-15.31.00:825][266]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Door)
+[2017.11.02-15.31.03:861][619]Cmd: SELECT NONE
+[2017.11.02-15.31.06:768][966]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (SM_Door)
+[2017.11.02-15.31.07:651][ 62]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Door)
+[2017.11.02-15.31.49:762][ 48]LogSavePackage: Save=158.66ms
+[2017.11.02-15.31.49:762][ 48]LogSavePackage: Moving '../../../../Projects/Tutorial4Gamedev/Saved/Level2_Auto3F560046745F2CE0741A7AD9AB0162295.tmp' to '../../../../Projects/Tutorial4Gamedev/Saved/Autosaves/Game/StarterContent/Tutorial3/Level2_Auto3.umap'
+[2017.11.02-15.31.49:763][ 48]LogSavePackage:Display: Finished SavePackage ../../../../Projects/Tutorial4Gamedev/Saved/Autosaves/Game/StarterContent/Tutorial3/Level2_Auto3.umap
+[2017.11.02-15.31.49:764][ 48]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/StarterContent/Tutorial3/Level2' took 0.198
+[2017.11.02-15.31.49:764][ 48]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.198
+[2017.11.02-15.32.20:126][688]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_DoorFrame)
+[2017.11.02-15.32.24:530][210]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Door)
+[2017.11.02-15.33.20:564][909]Cmd: DELETE
+[2017.11.02-15.33.20:564][909]Cmd: ACTOR DELETE
+[2017.11.02-15.33.20:565][909]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.11.02-15.33.20:577][909]LogEditorActor: Deleted 1 Actors (0.013 secs)
+[2017.11.02-15.33.36:343][796]LogActorFactory: Actor Factory created SM_CornerFrame
+[2017.11.02-15.33.38:437][ 46]LogActorFactory: Actor Factory created SM_CornerFrame
+[2017.11.02-15.33.38:764][ 81]Cmd: SELECT NONE
+[2017.11.02-15.33.40:376][274]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_CornerFrame)
+[2017.11.02-15.33.41:055][351]Cmd: DELETE
+[2017.11.02-15.33.41:055][351]Cmd: ACTOR DELETE
+[2017.11.02-15.33.41:055][351]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.11.02-15.33.41:067][351]LogEditorActor: Deleted 1 Actors (0.012 secs)
+[2017.11.02-15.33.49:364][333]LogActorFactory: Actor Factory created SM_Lamp_Ceiling
+[2017.11.02-15.33.54:231][916]LogActorFactory: Actor Factory created SM_Lamp_Ceiling
+[2017.11.02-15.33.54:432][935]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Lamp_Ceiling)
+[2017.11.02-15.34.00:701][685]Cmd: TRANSACTION UNDO
+[2017.11.02-15.34.00:701][685]LogEditorTransaction: Undo Set actor scale
+[2017.11.02-15.34.06:801][405]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Lamp_Ceiling)
+[2017.11.02-15.34.25:270][593]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Lamp_Ceiling)
+[2017.11.02-15.34.44:821][914]Cmd: SELECT NONE
+[2017.11.02-15.34.45:716][ 21]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Lamp_Ceiling)
+[2017.11.02-15.34.46:449][104]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Lamp_Ceiling)
+[2017.11.02-15.35.06:619][495]LogEditorViewport: Clicking on Component (LMB): StaticMeshComponent (StaticMeshComponent0)
+[2017.11.02-15.35.13:681][316]Cmd: TRANSACTION UNDO
+[2017.11.02-15.35.13:681][316]LogEditorTransaction: Undo Move Components
+[2017.11.02-15.35.14:026][355]Cmd: TRANSACTION UNDO
+[2017.11.02-15.35.14:026][355]LogEditorTransaction: Undo Clicking on Components
+[2017.11.02-15.35.14:499][408]Cmd: TRANSACTION UNDO
+[2017.11.02-15.35.14:499][408]LogEditorTransaction: Undo Move Components
+[2017.11.02-15.35.32:956][591]Cmd: EDIT COPY
+[2017.11.02-15.35.33:195][612]LogWindows: Windows GetLastError: The operation completed successfully. (0)
+[2017.11.02-15.35.36:860][612]LogCrashTracker: 
+
+
+[2017.11.02-15.35.36:860][612]LogCrashTracker: 
+
+
+[2017.11.02-15.35.36:860][612]LogWindows:Error: === Critical error: ===
+[2017.11.02-15.35.36:860][612]LogWindows:Error: 
+[2017.11.02-15.35.36:860][612]LogWindows:Error: Assertion failed: GEditor->GetSelectedActorCount() == 1 [File:D:\Build\++UE4+Release-4.16+Compile\Sync\Engine\Source\Editor\LevelEditor\Private\LevelEditorActions.cpp] [Line: 1661] 
+[2017.11.02-15.35.36:860][612]LogWindows:Error: 
+[2017.11.02-15.35.36:860][612]LogWindows:Error: 
+[2017.11.02-15.35.36:860][612]LogWindows:Error: 
+[2017.11.02-15.35.36:860][612]LogWindows:Error: KERNELBASE.dll!0x000000009C799E08
+[2017.11.02-15.35.36:860][612]LogWindows:Error: UE4Editor-Core.dll!0x00000000658AAFFE
+[2017.11.02-15.35.36:860][612]LogWindows:Error: UE4Editor-Core.dll!0x00000000656C249B
+[2017.11.02-15.35.36:860][612]LogWindows:Error: UE4Editor-Core.dll!0x0000000065650849
+[2017.11.02-15.35.36:860][612]LogWindows:Error: UE4Editor-LevelEditor.dll!0x000000004857454D
+[2017.11.02-15.35.36:860][612]LogWindows:Error: UE4Editor-Slate.dll!0x0000000064FBEB22
+[2017.11.02-15.35.36:860][612]LogWindows:Error: UE4Editor-Slate.dll!0x0000000065003D60
+[2017.11.02-15.35.36:860][612]LogWindows:Error: UE4Editor-UnrealEd.dll!0x000000005B9BFEA6
+[2017.11.02-15.35.36:860][612]LogWindows:Error: UE4Editor-LevelEditor.dll!0x0000000048647948
+[2017.11.02-15.35.36:860][612]LogWindows:Error: UE4Editor-Slate.dll!0x0000000064FA9021
+[2017.11.02-15.35.36:860][612]LogWindows:Error: UE4Editor-Slate.dll!0x0000000064F7840E
+[2017.11.02-15.35.36:860][612]LogWindows:Error: UE4Editor-Slate.dll!0x0000000064F7A006
+[2017.11.02-15.35.36:860][612]LogWindows:Error: UE4Editor-Slate.dll!0x00000000650055AD
+[2017.11.02-15.35.36:860][612]LogWindows:Error: UE4Editor-Slate.dll!0x0000000064FF6518
+[2017.11.02-15.35.36:860][612]LogWindows:Error: UE4Editor-Core.dll!0x00000000658A149C
+[2017.11.02-15.35.36:860][612]LogWindows:Error: UE4Editor-Core.dll!0x000000006588B7D1
+[2017.11.02-15.35.36:860][612]LogWindows:Error: UE4Editor-Core.dll!0x00000000658A33DB
+[2017.11.02-15.35.36:860][612]LogWindows:Error: UE4Editor-Core.dll!0x0000000065887B22
+[2017.11.02-15.35.36:860][612]LogWindows:Error: USER32.dll!0x000000009F32BC50
+[2017.11.02-15.35.36:860][612]LogWindows:Error: USER32.dll!0x000000009F32B5CF
+[2017.11.02-15.35.36:860][612]LogWindows:Error: UE4Editor-Core.dll!0x00000000658A3CE6
+[2017.11.02-15.35.36:860][612]LogWindows:Error: UE4Editor.exe!0x000000009590DB44
+[2017.11.02-15.35.36:860][612]LogWindows:Error: UE4Editor.exe!0x00000000958FF0B0
+[2017.11.02-15.35.36:860][612]LogWindows:Error: UE4Editor.exe!0x00000000958FF12A
+[2017.11.02-15.35.36:860][612]LogWindows:Error: UE4Editor.exe!0x0000000095910CF9
+[2017.11.02-15.35.36:860][612]LogWindows:Error: UE4Editor.exe!0x00000000959125F7
+[2017.11.02-15.35.36:860][612]LogWindows:Error: KERNEL32.DLL!0x000000009D622774
+[2017.11.02-15.35.36:860][612]LogWindows:Error: ntdll.dll!0x000000009F4E0D51
+[2017.11.02-15.35.36:860][612]LogWindows:Error: ntdll.dll!0x000000009F4E0D51
+[2017.11.02-15.35.36:860][612]LogWindows:Error: 
+[2017.11.02-15.35.36:875][612]LogExit: Executing StaticShutdownAfterError
+[2017.11.02-15.35.36:878][612]LogWindows: FPlatformMisc::RequestExit(1)
+[2017.11.02-15.35.36:878][612]Log file closed, 11/02/17 22:35:36
